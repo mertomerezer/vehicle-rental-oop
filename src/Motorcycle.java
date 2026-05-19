@@ -1,7 +1,7 @@
 public class Motorcycle extends Vehicle{
 
-    public Motorcycle(String brand, String model, double dailyPrice) {
-        super(brand, model, dailyPrice);
+    public Motorcycle(String brand, String model) {
+        super(brand, model);
     }
 
     @Override

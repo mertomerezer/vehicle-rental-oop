@@ -49,5 +49,18 @@ public class RentalService {
     }
 
 
+    public void returnVehicle(Customer c){
+        if(c.getRentedVehicle()==null){
+            System.out.println("Müşteri de araba yok");
+        }
+        else{
+            Vehicle v = c.getRentedVehicle();
+            v.setRented(false);
+            c.setRentedVehicle(null);
+
+        }
+    }
+
+
 
 }

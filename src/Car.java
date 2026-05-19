@@ -1,6 +1,6 @@
 public class Car extends Vehicle{
-    public Car(String brand, String model, double dailyPrice) {
-        super(brand, model, dailyPrice);
+    public Car(String brand, String model) {
+        super(brand, model);
     }
     @Override
     double calculateRent(int days) {
