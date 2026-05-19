@@ -1,5 +1,3 @@
-
-
 🚗 Vehicle Rental OOP System
 📌 Overview
 
@@ -27,25 +25,20 @@ Encapsulation
 Fields are protected/private with getters and setters
 🏗️ Project Structure
 Vehicle (abstract class)
-│
 ├── Car
 ├── Truck
 └── Motorcycle
 
 Customer
-
 RentalService
-
 Main
 ⚙️ How It Works
 Vehicles are created
 A customer is created
-RentalService manages:
-Renting a vehicle
-Returning a vehicle
-System checks:
-If vehicle is already rented
-If customer already has a vehicle
+RentalService manages renting and returning vehicles
+System checks if:
+Vehicle is already rented
+Customer already has a vehicle
 Rental price is calculated based on days
 ▶️ Example Flow
 Customer rents a vehicle
@@ -55,12 +48,8 @@ Customer returns vehicle
 Vehicle becomes available again
 🧪 Purpose
 
-This project was created for learning purposes to improve understanding of:
+This project was created for learning purposes to improve understanding of Java OOP principles, class relationships, and basic system design.
 
-Java OOP principles
-Class relationships
-Basic system design
-Clean code structure
 🚀 Future Improvements
 Add multiple customers support
 Store vehicles in a list instead of single objects
@@ -69,4 +58,4 @@ Build a GUI or web version
 Add discounts and pricing rules
 👨‍💻 Author
 
-Built as a personal OOP learning project using Java.
+Built as a personal Java OOP learning project.
