@@ -51,7 +51,7 @@ public class RentalService {
 
     public void returnVehicle(Customer c){
         if(c.getRentedVehicle()==null){
-            System.out.println("Müşteri de araba yok");
+            System.out.println("The customer does not have a car");
         }
         else{
             Vehicle v = c.getRentedVehicle();
